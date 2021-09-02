@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C4838686-23C7-78C8-DAB2-97D930DDD6AD}</ProjectGuid>
+    <ProjectGuid>{AF45BE18-580A-774D-B660-37C15E9C9AC5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,28 +56,28 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\YawVR\Scripts\YawController.cs" />
+    <Compile Include="Assets\YawVR\Scripts\Enums.cs" />
+    <Compile Include="Assets\YawVR\Scripts\CameraIMUCancellation.cs" />
+    <Compile Include="Assets\YawVR\Scripts\YawDevice.cs" />
+    <Compile Include="Assets\YawVR\Sample\BuzzerSamples\BuzzerSample.cs" />
+    <Compile Include="Assets\YawVR\Scripts\YawUDPClient.cs" />
+    <Compile Include="Assets\YawVR\Scripts\UI\RotationPanel.cs" />
+    <Compile Include="Assets\YawVR\Sample\LED\Rainbow.cs" />
+    <Compile Include="Assets\YawVR\Scripts\Orientation.cs" />
+    <Compile Include="Assets\YawVR\Sample\Arcade_Car_Physics\Scripts\WheelVehicle.cs" />
+    <Compile Include="Assets\YawVR\Scripts\YawTCPClient.cs" />
+    <Compile Include="Assets\YawVR\Sample\BatteryLevelUI.cs" />
     <Compile Include="Assets\YawVR\Scripts\UI\SampleYawControllerDelegateImplementation.cs" />
     <Compile Include="Assets\YawVR\Sample\ControlSamples\VelocityController.cs" />
-    <Compile Include="Assets\YawVR\Scripts\UI\RotationPanel.cs" />
-    <Compile Include="Assets\YawVR\Sample\Arcade_Car_Physics\Scripts\WheelVehicle.cs" />
-    <Compile Include="Assets\YawVR\Scripts\YawTracker.cs" />
-    <Compile Include="Assets\YawVR\Scripts\YawTCPClient.cs" />
-    <Compile Include="Assets\YawVR\Sample\LED\Blinking.cs" />
-    <Compile Include="Assets\YawVR\Sample\BatteryLevelUI.cs" />
-    <Compile Include="Assets\YawVR\Scripts\Enums.cs" />
     <Compile Include="Assets\YawVR\Scripts\ActionBus.cs" />
-    <Compile Include="Assets\YawVR\Sample\LED\SimpleColor.cs" />
-    <Compile Include="Assets\YawVR\Sample\LED\Rainbow.cs" />
-    <Compile Include="Assets\YawVR\Sample\ControlSamples\SimpleOrientationCopy.cs" />
-    <Compile Include="Assets\YawVR\Scripts\CameraIMUCancellation.cs" />
-    <Compile Include="Assets\YawVR\Scripts\YawController.cs" />
-    <Compile Include="Assets\YawVR\Scripts\Commands.cs" />
-    <Compile Include="Assets\YawVR\Scripts\YawUDPClient.cs" />
     <Compile Include="Assets\YawVR\Sample\LED\ColorTransition.cs" />
+    <Compile Include="Assets\YawVR\Sample\ControlSamples\SimpleOrientationCopy.cs" />
+    <Compile Include="Assets\YawVR\Scripts\YawTracker.cs" />
+    <Compile Include="Assets\YawVR\Scripts\Commands.cs" />
     <Compile Include="Assets\YawVR\Scripts\UI\RotationLimitsPanel.cs" />
-    <Compile Include="Assets\YawVR\Scripts\Orientation.cs" />
-    <Compile Include="Assets\YawVR\Sample\BuzzerSamples\BuzzerSample.cs" />
-    <Compile Include="Assets\YawVR\Scripts\YawDevice.cs" />
+    <Compile Include="Assets\YawVR\Sample\LED\SimpleColor.cs" />
+    <Compile Include="Assets\YawVR\Sample\LED\Blinking.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

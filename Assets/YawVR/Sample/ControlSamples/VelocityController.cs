@@ -38,7 +38,7 @@ public class VelocityController : MonoBehaviour
         vel.y *= multiplier.y;
         vel.z *= multiplier.z;
 
-        Vector3 v = new Vector3(vel.z, 0f, vel.x);
+        Vector3 v = new Vector3(vel.z + transform.eulerAngles.x, transform.eulerAngles.y, vel.x + transform.eulerAngles.z);
    
         yawController.TrackerObject.SetRotation(v);
     }
