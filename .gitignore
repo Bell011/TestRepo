@@ -1,3 +1,5 @@
 Library/
 .vs
 /UnityLockfile
+Logs/
+Temp/
